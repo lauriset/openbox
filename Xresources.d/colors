@@ -1,0 +1,23 @@
+! Color Scheme
+! ------------------------------------------------------------------------------
+
+*background: #1d2021
+*foreground: #f5eb81
+*cursorColor: #f0eaaf
+
+*color0: #1d2021
+    *color1: #ea6962
+    *color2: #eef5cb
+    *color3: #A9B665
+    *color4: #f5eb81
+    *color5: #d3869b
+    *color6: #89b482
+    *color7: #d4be98
+    *color8: #928374
+    *color9: #ea6962
+    *color10: #a9b665
+    *color11: #d8a657
+    *color12: #7daea3
+    *color13: #d3869b
+    *color14: #89b482
+    *color15: #f5eb81

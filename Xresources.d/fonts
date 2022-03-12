@@ -1,0 +1,17 @@
+
+! Fonts
+! ------------------------------------------------------------------------------
+
+! URxvt.font: xft:Terminus:regular:size=8
+! URxvt.boldFont: xft:Terminus:bold:size=8
+! URxvt.italicFont: xft:Terminus:italic:size=8
+! URxvt.boldItalicfont: xft:Terminus:boldItalic:size=8
+
+! URxvt.font: xft:JetBrainsMono Nerd Font:size=8
+! URxvt.boldFont: xft:JetBrainsMono Nerd Font:bold:size=8
+! URxvt.italicFont: xft:JetBrainsMono Nerd Font:italic:size=8
+! URxvt.boldItalicfont: xft:JetBrainsMono Nerd Font:boldItalic:size=8
+
+URxvt.font: xft:MesloLGS NF:size=8
+! URxvt.Font: 'font -misc-tamzen-medium-r-normal--9-65-100-100-c-50-iso8859-1'
+
