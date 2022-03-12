@@ -1,0 +1,99 @@
+ncmpcpp_directory = "~/.ncmpcpp"
+lyrics_directory = "~/.lyrics"
+
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir =  "~/Music"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "5"
+
+audio_output {
+type "fifo"
+ name "My FIFO"
+ path "/tmp/mpd.fifo"
+ format "44100:16:2"
+ }
+ 
+ visualizer_in_stereo = "yes"
+ visualizer_output_name = "mpd_visualizer"
+ visualizer_type = "ellipse" (spectrum/ellipse/wave)
+visualizer_look = ●●
+ #visualizer_look = "●▉"
+
+playlist_disable_highlight_delay = "5"
+message_delay_time = "3"
+
+song_list_format = "{$3%a} $3»$8»$5» {$5%t}|{$8%f}$R{$3%b}"
+song_status_format = "{$8%a} $2»$8»$5» $b{$1%b}$/b"
+song_library_format = "{%n - }{%t}|{%f}"
+
+browser_sort_mode = "name"
+browser_sort_format = "{%a - }{%t}|{%f} {(%l)}"
+
+alternative_header_first_line_format = "{$b$1%t$9$/b}"
+alternative_header_second_line_format ="$0{%a} $b$8-$9$/b {%b}$9"
+now_playing_prefix = "$u$2"
+now_playing_suffix = "$2$/u$2"
+
+song_columns_list_format = "(10)[black]{l} (30)[yellow]{a} (30)[green]{b} (30)[green]{t}"
+
+playlist_shorten_total_times = "no"
+playlist_display_mode = "classic" (classic/columns)
+browser_display_mode = "classic" (classic/columns)
+search_engine_display_mode = "classic" (classic/columns)
+
+incremental_seeking = "yes"
+seek_time = "1"
+autocenter_mode = "yes"
+centered_cursor = "no"
+
+progressbar_look = "─╼─"
+#progressbar_look = "___"
+#progressbar_look = "___"
+#progressbar_look = "▉▉▉"
+
+default_place_to_search_in = "database" (database/playlist)
+user_interface = "classic" (classic/alternative)
+default_find_mode = "wrapped" (wrapped/normal)
+default_tag_editor_pattern = "%n - %t"
+header_visibility = "no"
+statusbar_visibility = "yes"
+titles_visibility = "no"
+header_text_scrolling = "yes"
+cyclic_scrolling = "no"
+lines_scrolled = "5"
+follow_now_playing_lyrics = "no"
+store_lyrics_in_song_dir = "no"
+jump_to_now_playing_song_at_start = "yes"
+
+clock_display_seconds = "yes"
+display_volume_level = "yes"
+display_bitrate = "yes"
+display_remaining_time = "no"
+regular_expressions = "basic" (basic/extended)
+ignore_leading_the = "yes"
+mouse_support = "yes"
+mouse_list_scroll_whole_page = "yes"
+empty_tag_marker = "<empty>"
+enable_window_title = "no"
+search_engine_default_search_mode = "1"
+external_editor = "vim"
+use_console_editor = "yes" #(set to yes, if your editor is console app)
+
+colors_enabled = "yes"
+empty_tag_color = "white"
+header_window_color = "white"
+volume_color = "yellow"
+state_line_color = "white"
+state_flags_color = "white"
+main_window_color = "green"
+
+progressbar_color = "black"
+progressbar_elapsed_color = "green"
+statusbar_color = "green"
+alternative_ui_separator_color = "white"
+visualizer_color = "cyan, green, yellow, magenta, red"
+active_window_border = "green"
+
+# execute_on_song_change="~/.ncmpcpp/scripts/popup.sh"
+#
